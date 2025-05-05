@@ -1,0 +1,68 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# Generated images
+images/
+stickers/
+converted_images/
+data/
+processed_stickers/
+sticker/
+stickers_rainy_sab/
+src/
+
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.stickers.md
+app.py
+actions.py
+last_app.py
+image_gen.py
+sticker_bot.session
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local development files
+local_settings.py
+
+# Test files not imported by main code
+test_*.py
+!test_imagegen.py  # Keep this as it's imported
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Dependency directories
+node_modules/
+llama3.py
+topng.py
+sticker_selector.py
+sticker_saver.py
+sticker_sizer.py
+sticker_maker.py
+app.py
+actions.py
+session_name.session
+my_account.session
