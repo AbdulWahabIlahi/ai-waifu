@@ -8,7 +8,6 @@ from mistralai import Mistral
 
 # Constants
 TELEGRAM_BOT_TOKEN = ""
-MISTRAL_API_KEY = "HmT7ruoij7uD2Oinuj8GUeykGN0nlGMQ"
 MISTRAL_MODEL = "mistral-large-latest"
 
 # Initialize bot, dispatcher, and Mistral client
